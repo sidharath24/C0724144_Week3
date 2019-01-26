@@ -14,18 +14,31 @@ namespace C0724144
     }
     class Countryside
     {
-        Village Alst = new Village();
-        Village Maeland = new Village();
-        Village Schenig = new Village();
+        Village Alst;
+        Village Maeland;
+        Village Schenig;
+        public void InitializeMap()
+        {
+         Alst = new Village();
+         Maeland = new Village();
+         Schenig = new Village();
+         Maeland.isAstrildeHere = true;
+         Alst.NextVillage = Maeland;
+         Schenig = new Village();
+        }
 
+        public void WalkAround()
+        {
+            Village InitialVillage = this.Maeland;
+        }
     }
 
     class Village
     {
-        Village previousVillage;
-        Village NextVillage;
+        public Village previousVillage;
+        public Village NextVillage;
         String VillageName;
-        bool isAstrildeHere = false;
+        public bool isAstrildeHere = false;
         public Village()
         {
 
