@@ -11,6 +11,8 @@ namespace C0724144
         static void Main(string[] args)
         {
             int i;
+            i = 34;
+            Console.WriteLine(i);
         }
     }
 }
