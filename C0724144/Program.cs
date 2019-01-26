@@ -10,6 +10,7 @@ namespace C0724144
     {
         static void Main(string[] args)
         {
+            int i;
         }
     }
 }
