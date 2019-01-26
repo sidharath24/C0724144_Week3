@@ -44,10 +44,6 @@ namespace C0724144
 
             NextVillage = CurrentVillage.NextVillage;
         }
-
-        
-
-        
     }
 
     class Village
