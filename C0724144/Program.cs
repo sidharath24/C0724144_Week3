@@ -14,7 +14,10 @@ namespace C0724144
     }
     class Countryside
     {
-        //how will I make some villages
+        Village Alst = new Village();
+        Village Maeland = new Village();
+        Village Schenig = new Village();
+
     }
 
     class Village
