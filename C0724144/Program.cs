@@ -10,9 +10,24 @@ namespace C0724144
     {
         static void Main(string[] args)
         {
-            int i;
-            i = 34;
-            Console.WriteLine(i);
         }
     }
+    class Countryside
+    {
+        
+
+    }
+
+    class Village
+    {
+        Village previousVillage;
+        Village NextVillage;
+        String VillageName;
+        bool isAstrildeHere = false;
+        public Village()
+        {
+
+        }
+    }
+
 }
